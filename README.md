@@ -1,5 +1,7 @@
 # Substitute Soccer — Go port
 
+[![Latest release](https://img.shields.io/github/v/release/chrplr/soccer-go)](https://github.com/chrplr/soccer-go/releases/latest)
+
 **▶ Play it in your browser: <https://chrplr.github.io/soccer-go/>**
 
 A Go re-implementation of the Pygame Zero game **Substitute Soccer** from *Code the Classics
