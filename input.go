@@ -8,6 +8,13 @@ import "github.com/Zyko0/go-sdl3/sdl"
 func keyDown(sc sdl.Scancode) bool        { return app.Keyboard.Held(sc) }
 func keyJustPressed(sc sdl.Scancode) bool { return app.Keyboard.Pressed(sc) }
 
+// startPressed reports a fresh press of a menu start key — Space or Enter.
+func startPressed() bool {
+	return keyJustPressed(sdl.SCANCODE_SPACE) ||
+		keyJustPressed(sdl.SCANCODE_RETURN) ||
+		keyJustPressed(sdl.SCANCODE_KP_ENTER)
+}
+
 // Controls maps one player's keys and reports movement/shoot intents.
 type Controls struct {
 	up, down, left, right, shootKey sdl.Scancode

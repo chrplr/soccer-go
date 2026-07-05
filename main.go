@@ -54,7 +54,7 @@ var (
 func update() {
 	switch state {
 	case StateMenu:
-		if keyJustPressed(sdl.SCANCODE_SPACE) {
+		if startPressed() {
 			if menuState == MenuNumPlayers {
 				if menuNumPlayers == 1 {
 					menuState = MenuDifficulty
@@ -100,7 +100,7 @@ func update() {
 		}
 
 	case StateGameOver:
-		if keyJustPressed(sdl.SCANCODE_SPACE) {
+		if startPressed() {
 			state = StateMenu
 			menuState = MenuNumPlayers
 			game = NewGame(nil, nil, 2, assets, audio)
