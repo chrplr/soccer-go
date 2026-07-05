@@ -26,6 +26,8 @@ Ported to Go from the Python original in *Code the Classics Volume 1*. The game
 design and original assets are © their respective authors / Raspberry Pi Press —
 add the appropriate license before redistributing.
 
+The original Python code and assets are in Raspberry Pi Press's [Code the Classics — Volume 1](https://github.com/raspberrypipress/Code-the-Classics-Vol1) repository.
+
 The Go source code of this port is distributed under the MIT License.
 
 See `Python_and_Go_implementation_comparison.md` for a walkthrough of how the port
