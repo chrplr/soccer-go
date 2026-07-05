@@ -1,5 +1,7 @@
 # Substitute Soccer — Go port
 
+**▶ Play it in your browser: <https://chrplr.github.io/soccer-go/>**
+
 A Go re-implementation of the Pygame Zero game **Substitute Soccer** from *Code the Classics
 Volume 1* (Raspberry Pi Press), built on
 [go-sdl3](https://github.com/Zyko0/go-sdl3) and the
