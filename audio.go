@@ -4,7 +4,6 @@ import (
 	"embed"
 	"math/rand"
 	"path"
-	"runtime"
 	"strconv"
 
 	"github.com/Zyko0/go-sdl3/mixer"
@@ -28,12 +27,6 @@ type Audio struct {
 
 func NewAudio() *Audio {
 	a := &Audio{sounds: make(map[string]*mixer.Audio)}
-
-	// SDL3_mixer has no js/wasm bindings yet: in the browser, skip audio init
-	// entirely and run silently (every play method no-ops on a nil mixer).
-	if runtime.GOOS == "js" {
-		return a
-	}
 
 	if err := mixer.Init(); err != nil {
 		return a
