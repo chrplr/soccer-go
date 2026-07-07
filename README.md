@@ -29,6 +29,22 @@ Press **Esc** to quit.
 
 ![Keyboard controls for Substitute Soccer](keyboard.svg)
 
+## How to play
+
+**The goal.** It's football (soccer). Put the ball in the opponent's goal more often than they put it in yours. **First team to 9 goals wins.** After each goal the game restarts from a kickoff.
+
+**Getting started.** From the menu, pick **1 player** (against the computer, then choose a difficulty) or **2 players** (head-to-head). Confirm with **Space** / **Enter** and the match kicks off.
+
+**You only control one player at a time.** Your team has several players on the pitch, but you steer just one — the one marked by the coloured **arrow** floating above his head. The rest of the team is run by the AI, moving into space and defending automatically.
+
+**With the ball.** When your player is near the ball he picks it up and dribbles it automatically — just steer him with your movement keys. Run toward the opponent's goal to attack.
+
+**Shoot and pass.** Tap your **shoot/pass key** (Space for Player 1, Left Shift for Player 2) to kick. The kick is aimed for you: if a team-mate or the goal is ahead of you and roughly in the direction you're facing, the ball is passed/shot toward it; otherwise it's booted straight ahead. So *face the direction you want to kick* before pressing the key.
+
+**Without the ball.** Pressing the same shoot/pass key switches your control to whichever team-mate is best placed near the ball — use it to grab back possession or to take over the defender closest to an attacker. To tackle, just run your controlled player into the ball carrier to knock the ball loose, then run over the loose ball to collect it.
+
+**Winning tips.** Keep switching to the player nearest the ball, line up your facing direction before shooting, and use quick passes to move the ball up-field faster than a single dribbler can.
+
 ## Download
 
 Prebuilt, self-contained binaries — no install, no dependencies, assets embedded.
