@@ -28,8 +28,8 @@ Python is a single 1,126-line module. The Go port splits it by concern:
 | `Vector2` replacement + `safe_normalise` | `vec.go` |
 | geometry, constants, `sin/cos`, `cost`, `ball_physics`, `steps` | `geom.go` |
 | `Controls`, `key_just_pressed` | `input.go` |
-| image cache | `assets.go` |
-| `play_sound` / music / crowd | `audio.go` |
+| image cache | pgzgo `Screen` (harness) |
+| `play_sound` / music / crowd | `audio.go` (bespoke, over pgzgo) |
 
 ---
 
@@ -281,7 +281,7 @@ end) is reproduced with a `drawItem{main, shadow}` list and `sort.SliceStable`.
 | Optionals | `None` → pointers; `lead` → `float64 + hasLead` | no `None` |
 | Integer maths | `//`, `%` → `floorDiv`, `pmod` | Go truncates toward zero |
 | Base actor | `MyActor` → `Actor` + camera-offset draw | no classes |
-| Framework | Pygame Zero → go-sdl3 | library swap |
+| Framework | Pygame Zero → pgzgo (over go-sdl3) | library swap |
 
 The AI, physics, and match rules are line-by-line equivalent to `soccer.py`. The
 defining translation is the pair of Go interfaces (`posTeam`, `Marker`) that let
