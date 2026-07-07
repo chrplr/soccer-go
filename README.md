@@ -4,8 +4,6 @@
 
 **▶ Play it in your browser: <https://chrplr.github.io/soccer-go/>**
 
-*The in-browser version runs at the correct speed on any monitor, including high-refresh (120/144 Hz) displays, since [pgzgo](https://github.com/chrplr/pgzgo) v0.4.0.*
-
 A Go re-implementation of the Pygame Zero game **Substitute Soccer** from *Code the Classics
 Volume 1* (Raspberry Pi Press), built on
 [go-sdl3](https://github.com/Zyko0/go-sdl3) and the
@@ -26,6 +24,10 @@ One or two players. Keyboard only.
 | Shoot / pass | Space | Left Shift |
 
 Press **Esc** to quit.
+
+**Playing on a non-US keyboard?** The game reads *physical key positions* (US QWERTY layout), not the printed letters — so on an AZERTY or QWERTZ keyboard a labelled key may sit somewhere else. This matters most for Player 2's `W A S D` keys. Find each key on the picture below and press the same spot on your own board.
+
+![Keyboard controls for Substitute Soccer](keyboard.svg)
 
 ## Download
 
